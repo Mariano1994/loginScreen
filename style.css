@@ -10,11 +10,129 @@
   font-size: 62.5%;
 }
 
-body {
-  font-size: 1.6rem;
-  font-family: "roboto", sans-serif;
+label,
+input {
+  display: block;
 }
 
-main {
+body {
+  font-size: 1.6rem;
+  font-family: "Titillium Web", sans-serif;
+  background-color: #f1f5f9;
+}
+
+.main-content-wrapper {
   display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.logo {
+  margin-top: 4rem;
+  margin-left: 11.2rem;
+}
+
+.form-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 11.4rem;
+  margin-left: 11.2rem;
+  gap: 1.6rem;
+  hieght: 48.3rem;
+  width: 38.4rem;
+}
+
+.form-content-wrapper .form-title h1 {
+  font-weight: 700;
+  font-size: 3.6rem;
+  color: #1e293b;
+}
+
+.form-content-wrapper .form-content {
+  width: 90%;
+}
+.form-content-wrapper .form-content p {
+  font-weight: 100;
+  line-hieght: 2.4rem;
+  color: #475569;
+}
+
+.form {
+  margin-top: 4rem;
+  margin-left: 11.2rem;
+  width: 38.4rem;
+}
+
+label {
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 2.1rem;
+  color: #1e293b;
+  margin-bottom: 1rem;
+}
+
+.label {
+  display: flex;
+  justify-content: space-between;
+}
+
+.label a {
+  text-decoration: none;
+  color: #7c3aed;
+  font-weight: 600;
+  line-height: 2.1rem;
+}
+
+.form input {
+  width: 100%;
+  padding: 1.6rem 1.2rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+  color: #7c3aed;
+  outline-color: #7c3aed;
+
+  transition: all 0.2s;
+}
+
+.form input::placeholder {
+  color: #94a3b8;
+}
+
+.form input:hover {
+  border: 1px solid #7c3aed;
+}
+
+button {
+  width: 100%;
+  border: none;
+  padding: 1.6rem 2.4rem;
+  background-color: #7c3aed;
+  color: #fff;
+  border-radius: 4px;
+  margin-top: 3.2rem;
+  cursor: pointer;
+  font-weight: bold;
+  line-height: 2.4rem;
+
+  transition: all 0.2s;
+}
+
+button:hover {
+  background-color: #9f67ff;
+}
+
+.register {
+  margin-top: 2rem;
+}
+.register p {
+  font-weight: 100;
+  line-hieght: 2.4rem;
+  color: #475569;
+}
+
+.register a {
+  text-decoration: none;
+  color: #7c3aed;
+  font-weight: 600;
+  line-height: 2.1rem;
 }
