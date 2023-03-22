@@ -102,13 +102,13 @@ label {
   border: 1px solid #7c3aed;
 }
 
-.form input:invalid {
+/* .form input:invalid {
   border: 1px solid #ed3a5a;
 }
 
 .form input:valid {
   border: 1px solid #7c3aed;
-}
+} */
 button {
   width: 100%;
   border: none;
